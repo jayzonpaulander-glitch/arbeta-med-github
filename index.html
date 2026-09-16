@@ -1,0 +1,36 @@
+<!DOCTYPE html> <!-- Doctype förklarar för webläsaren vilken typ av dokument som skickas. I det här fallet html 5 -->
+<html>
+	<head>
+		<title>Lektion 5</title>
+	</head>
+	<!--	Det här är en kommentar och kommer inte påverka utseendet på hemsidan
+		JavaScript som uppdaterar hemsidan var femte sekund och behöver inte användas om sidan skrivs i vscode--> 
+	<script>
+		setTimeout(() => location.reload(), 5000)
+	</script>
+
+	<body>
+		<h1>Lektion 5</h1>
+		<h2>Dagens upplägg</h2>
+		<p>Installation av Texteditor</p>
+		<p>Grunder i html</p>
+		<br>
+		<p><b>Installation av texteditor</b></p>
+		<p>Det är valfritt vilken texteditor som används och om du är 
+		osäker vilken du vill använda rekommenderas Visual Studio Code.</p>
+		<p>VSCode kan laddas ner från: <a href="https://code.visualstudio.com">visualstudio.com</a>
+		<br>
+		<img src="images/image.png" alt="luffy">
+		<br>
+		<p><b>Grunder i html</b></p>
+		<p>Genomgång av källkoden till den här html-sidan</p>
+		<p>För mer förklaring av de olika taggarna rekommenderas 
+		<a href="https://www.w3schools.com/html/default.asp">w3schools</a></p>
+		<br>
+		<p>1. Skapa en mapp för den här kursen</p>
+		<p style="text-indent: 15px;"> 1.1 Tryck win + e för att öppna utforskaren</p>
+		<p>2. Skapa en mapp i den mappen som heter lektion 5</p>
+		<p>3. Skapa en textfil i den mappen som heter index.html. Använd valfri texteditor för att skriva text i filen </p>
+		<p>4. Experimentera med att lägga in html-taggar</p>
+	</body>
+</html>
